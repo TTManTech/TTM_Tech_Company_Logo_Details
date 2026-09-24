@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TTM Tech Logo</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap">
+<style>
+  body{margin:0;font-family:system-ui,sans-serif;display:grid;grid-template-columns:1fr 1fr;min-height:100vh}
+  section{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:48px 16px}
+  .dark{background:#07090D;color:#98A0AC}
+  .light{background:#F4F5F7;color:#4A5260}
+  img{width:min(340px,80vw);height:auto}
+  @media (max-width:720px){body{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+  <section class="dark"><img src="ttm-tech-logo-dark.svg" alt="TTM Tech logo, dark"><p>Dark</p></section>
+  <section class="light"><img src="ttm-tech-logo-light.svg" alt="TTM Tech logo, light"><p>Light</p></section>
+</body>
+</html>
